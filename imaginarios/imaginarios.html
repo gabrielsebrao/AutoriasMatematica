@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imaginários</title>
+        <link rel="stylesheet" href="./imaginarios.css">
+        <script src="./imaginarios.js"></script>
+    </head>
+
+    <body>
+        a: <input id="primeira_parte_real" type="number" onkeyup="mostrar_numero_imaginario(1)">
+        b: <input id="primeira_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(1)">
+        <p id="primeiro_numero_imaginario">0 + 0i</p>
+
+        a: <input id="segunda_parte_real" type="number" onkeyup="mostrar_numero_imaginario(2)">
+        b: <input id="segunda_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(2)">
+        <p id="segundo_numero_imaginario">0 + 0i</p>
+
+        <button onclick="somar()">+</button>
+        <button onclick="subtrair()">-</button>
+
+        <p id="resultado_final">Resultado final: 0 + 0i</p>
+    </body>
+</html>
