@@ -2,3 +2,112 @@
     margin: 0;
     font: Arial;
 }
+
+/* FONTS */
+
+@font-face {
+    font-family: "Neue Regrade";
+    src: url('../public/fonts/Neue\ Regrade\ Variable.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url(../public/fonts/PPNeueMachina-Regular.otf) format("opentype");
+}
+
+/* BODY */
+
+body {
+    background: url('../public/images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .title {
+    font-family: 'Neue Regrade';
+    width: 55vw;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 18vh;
+  }
+
+  .palavra input {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(4px);
+    border: 1.5px solid white;
+    border-radius: 18px;
+    color: white;
+    width: 27vw;
+    height: 9vh;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Neue Machina';
+    font-weight: 400;
+    font-size: 3em;
+    transition: background 0.3s ease;
+    transition: border-radius 0.5s ease;
+  }
+  
+  .palavra input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.096);
+    backdrop-filter: blur(4px);
+    border: 1.5px solid white;
+    border-radius: 50px;
+    transition: background 0.3s ease;
+    transition: border-radius 0.5s ease;
+  }
+
+  .resultado {
+    font-family: 'Neue Regrade';
+    width: 55vw;
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 8vh;
+  }
+
+  .botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(4px);
+    border: 1.5px solid white;
+    border-radius: 25px;
+    width: 10vw;
+    height: 5vh;
+    margin-top: 5vh;
+  }
+
+  .botao a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Neue Regrade';
+    font-size: 1.3em;
+    margin-top: 0.2vw;
+    transition: border-radius 0.4s ease;
+  }
+
+  .botao:hover {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 0px 13px 5px rgba(0, 0, 0, 0.2);
+    transition: border-radius 0.4s ease;
+  }

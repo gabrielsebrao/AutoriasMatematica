@@ -7,3 +7,40 @@
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
 }
+
+/* FONTS */
+
+@font-face {
+    font-family: "Neue Regrade";
+    src: url('../public/fonts/Neue\ Regrade\ Variable.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url(../public/fonts/PPNeueMachina-Regular.otf) format("opentype");
+}
+
+/* BODY */
+
+body {
+    background: url('../public/images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .num1, .num2, .botoes, .resultado, .primeiro_numero, .segundo_numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

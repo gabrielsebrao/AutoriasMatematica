@@ -9,17 +9,42 @@
     </head>
 
     <body>
-        a: <input id="primeira_parte_real" type="number" onkeyup="mostrar_numero_imaginario(1)">
-        b: <input id="primeira_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(1)">
-        <p id="primeiro_numero_imaginario">0 + 0i</p>
+        <div class="container">
 
-        a: <input id="segunda_parte_real" type="number" onkeyup="mostrar_numero_imaginario(2)">
-        b: <input id="segunda_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(2)">
-        <p id="segundo_numero_imaginario">0 + 0i</p>
+            <div class="centalizar">
 
-        <button onclick="somar()">+</button>
-        <button onclick="subtrair()">-</button>
+                <h1>Insira os números complexos</h1>
 
-        <p id="resultado_final">Resultado final: 0 + 0i</p>
+                <div class="primeiro_numero">
+                    <p>a: <input id="primeira_parte_real" type="number" onkeyup="mostrar_numero_imaginario(1)"></p>
+                    <p>b: <input id="primeira_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(1)"></p>
+                </div>
+
+                <div class="num1">
+                    <p id="primeiro_numero_imaginario">0 + 0i</p>
+                </div>
+
+                <div class="botoes">
+                    <button onclick="somar()">+</button>
+                    <button onclick="subtrair()">-</button>
+                </div>
+                
+                <div class="segundo_numero">
+                    <p>a: <input id="segunda_parte_real" type="number" onkeyup="mostrar_numero_imaginario(2)"></p>
+                    <p>b: <input id="segunda_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(2)"></p>
+                </div>
+
+                <div class="num2">
+                    <p id="segundo_numero_imaginario">0 + 0i</p>
+                </div>
+                
+                <div class="resultado">
+                    <p id="resultado_final">Resultado final: 0 + 0i</p> 
+                </div>
+
+            </div>
+            
+        </div>
+        
     </body>
 </html>
