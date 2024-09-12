@@ -49,8 +49,8 @@ body {
 /* BOTOES _ CARDS */
 
 .cards {
-    margin-top: 80px;
-    margin-bottom: 200px;
+    margin-top: 6vh;
+    margin-bottom: 10.417vh;
     width: 75vw;
     display: flex;
     flex-direction: row;
@@ -90,7 +90,7 @@ body {
     color: white;
     font-weight: 600;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 2.2em;
 }
 
 .complexos-card p {
@@ -100,7 +100,7 @@ body {
     color: white;
     font-weight: 200;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.4em;
     margin-top: 1vh;
 }
 
@@ -131,7 +131,7 @@ body {
     color: white;
     font-weight: 600;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 2.2em;
 }
 
 .analise-card p {
@@ -141,6 +141,6 @@ body {
     color: white;
     font-weight: 300;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.4em;
     margin-top: 1vh;
 }

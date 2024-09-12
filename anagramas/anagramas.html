@@ -7,10 +7,28 @@
         <link rel="stylesheet" href="./anagramas.css">
         <script src="./anagramas.js"></script>
     </head>
-
     <body>
-        <h1>Digite uma palavra para descobrir sua quantidade de anagramas!</h1>
-        <input id="palavra_input" type="text" onkeyup="mostrar_numero_de_anagramas()">
-        <p id="resultado_final">0 anagramas</p>
+        <div class="container">
+            <div class="centralizar">
+
+                <div class="title">
+                    <h1>Digite uma palavra para descobrir sua quantidade de anagramas!</h1>
+                </div>
+            
+                <div class="palavra">
+                    <input id="palavra_input" type="text" onkeyup="mostrar_numero_de_anagramas()">
+                </div>
+            
+                <div class="resultado">
+                    <p id="resultado_final">0 anagramas</p> 
+                </div>
+
+            </div>
+
+            <div class="botao">
+                    <a href="../index.html">VOLTAR</a>
+            </div>
+
+        </div>
     </body>
 </html>
