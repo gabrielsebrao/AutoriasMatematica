@@ -11,35 +11,43 @@
     <body>
         <div class="container">
 
-            <div class="centalizar">
+            <div class="centralizar">
 
                 <h1>Insira os números complexos</h1>
-
-                <div class="primeiro_numero">
-                    <p>a: <input id="primeira_parte_real" type="number" onkeyup="mostrar_numero_imaginario(1)"></p>
-                    <p>b: <input id="primeira_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(1)"></p>
-                </div>
-
-                <div class="num1">
-                    <p id="primeiro_numero_imaginario">0 + 0i</p>
-                </div>
-
-                <div class="botoes">
-                    <button onclick="somar()">+</button>
-                    <button onclick="subtrair()">-</button>
-                </div>
                 
-                <div class="segundo_numero">
-                    <p>a: <input id="segunda_parte_real" type="number" onkeyup="mostrar_numero_imaginario(2)"></p>
-                    <p>b: <input id="segunda_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(2)"></p>
-                </div>
+                <div class="section">
 
-                <div class="num2">
-                    <p id="segundo_numero_imaginario">0 + 0i</p>
+                    <div class="primeiro_numero">
+                        <p>a: <input id="primeira_parte_real" type="number" onkeyup="mostrar_numero_imaginario(1)"></p>
+                        <p>b: <input id="primeira_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(1)"></p>
+                    </div>
+
+                    <div class="num1">
+                        <p id="primeiro_numero_imaginario">0 + 0i</p>
+                    </div>
+
+                    <div class="botoes">
+                        <button class="botao1" onclick="somar()">+</button>
+                        <button class="botao2" onclick="subtrair()">-</button>
+                    </div>
+                
+                    <div class="segundo_numero">
+                        <p>a: <input id="segunda_parte_real" type="number" onkeyup="mostrar_numero_imaginario(2)"></p>
+                        <p>b: <input id="segunda_parte_imaginaria" type="number" onkeyup="mostrar_numero_imaginario(2)"></p>
+                    </div>
+
+                    <div class="num2">
+                        <p id="segundo_numero_imaginario">0 + 0i</p>
+                    </div>
+
                 </div>
                 
                 <div class="resultado">
                     <p id="resultado_final">Resultado final: 0 + 0i</p> 
+                </div>
+
+                <div class="botao_voltar">
+                    <a href="../index.html">VOLTAR</a>
                 </div>
 
             </div>
